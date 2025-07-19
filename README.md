@@ -19,15 +19,16 @@ A beautiful, responsive, and animated 404 error page template with cloud animati
 
 ```
 404-page/
+├── index.html             # Main landing page (redirects to demo)
 ├── html/
-│   ├── index.html          # Main HTML file
+│   ├── index.html          # Main 404 error page demo
 │   ├── css/
 │   │   └── style.css       # Main stylesheet
 │   ├── js/
 │   │   ├── common.js       # JavaScript functionality
 │   │   └── jquery-1.11.2.min.js  # jQuery library
 │   └── img/                # Image assets
-├── documentation/          # Documentation files
+├── docs/                   # Documentation files
 ├── main_preview.jpg       # Main preview image
 ├── thumbnail.png          # Thumbnail image
 └── 404-page.zip          # Complete package for distribution
