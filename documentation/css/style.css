@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0; padding:0; box-sizing:border-box;}
+body {font-size:14px; font-family:Arial, Helvetica, sans-serif; color:#333; line-height:24px;}
+.container {max-width:1170px; margin:0 auto;}
+.template-title {text-align:center; margin:25px 0px;}
+.info {width:100%; border:1px solid #ddd; float:left;}
+.info-detail {width:40%; float:left; padding:15px;}
+.info-detail span {margin:5px 0px; display:inline-block; width:100%;}
+.info-detail span p {color:#FB8965; font-weight:bold;}
+.info-detail b {float:left; margin-right:10px;}
+.info-content {width:60%; float:left; padding:25px; border-left:1px solid #ddd;}
+.file-structure {display:inline-block; width:100%;}
+.file-structure h2 {margin:25px 0px;}

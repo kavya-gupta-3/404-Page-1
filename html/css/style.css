@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	outline: none;
+}
+img {
+	max-width: 100%;
+	border: none;
+}
+::-moz-selection {
+color:#fff;
+background:#59C7F8;
+}
+::selection {
+	color: #fff;
+	background: #59C7F8;
+}
+body {
+	height: 100%;
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	min-height:100%;
+}
+/*Start Main section BG css*/
+.page-notfound-section {
+	overflow: hidden;
+	height: 100vh;
+	min-height: 100%;
+	width: 100%; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#59c7f8+0,53cbf1+35,a9e3e4+100 */
+	background: rgb(89,199,248); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(89,199,248,1) 0%, rgba(83,203,241,1) 35%, rgba(169,227,228,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(89,199,248,1) 0%, rgba(83,203,241,1) 35%, rgba(169,227,228,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(89,199,248,1) 0%, rgba(83,203,241,1) 35%, rgba(169,227,228,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59c7f8', endColorstr='#a9e3e4', GradientType=0 ); /* IE6-9 */
+}
+/*End Main section BG css*/
+/*Start Plan Wrapper css*/
+.plan-wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.plan-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+/*End Plan Wrapper css*/
+/*Start TExt 404 css*/
+.text-404 {
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	width: 532px;
+	height: 152px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	z-index: 2;
+	top: 65px;
+	right: -45px;
+}
+.text-404 span {
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 152px;
+	margin-left: -60px;
+	color: #29aec1;
+	padding: 30px 25px;
+	background-color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+.text-404 span:before {
+	content: "";
+	background-image: url(../img/left-shap-img.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 68px;
+	height: 100%;
+	position: absolute;
+	left: -68px;
+	top: 0px;
+	overflow: hidden;
+	background-size: cover;
+}
+.text-404 span:after {
+	content: "";
+	position: absolute;
+	right: -132px;
+	top: 0px;
+	background-image: url(../img/right-shap.png);
+	background-repeat: no-repeat;
+	width: 132px;
+	height: 100%;
+	overflow: hidden;
+	background-size: cover;
+}
+/*End TExt 404 css*/
+/*Start Plan css*/
+.plan {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	z-index: 2;
+}
+/*End Plan css*/
+/*Start Oopse conent css*/
+.oops-content {
+	position: absolute;
+	z-index: 2;
+	bottom: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+.oops-content p {
+	font-size: 50px;
+	font-weight: 400;
+	margin-top: 100px;
+	color: #fff;
+}
+/*End Oopse conent css*/
+
+/*Start Clouds css*/
+
+.clouds {
+	position: absolute;
+}
+.cloud-1 {
+	background-image: url(../img/cloud-1.png);
+	background-repeat: no-repeat;
+	width: 343px;
+	height: 213px;
+}
+.cloud-2 {
+	background-image: url(../img/cloud-2.png);
+	background-repeat: no-repeat;
+	width: 333px;
+	height: 198px;
+}
+.cloud-3 {
+	background-image: url(../img/cloud-3.png);
+	background-repeat: no-repeat;
+	width: 222px;
+	height: 144px;
+}
+.cloud-4 {
+	background-image: url(../img/cloud-4.png);
+	background-repeat: no-repeat;
+	width: 159px;
+	height: 100px;
+}
+.cloud-5 {
+	background-image: url(../img/cloud-5.png);
+	background-repeat: no-repeat;
+	width: 104px;
+	height: 62px;
+}
+.cloud-1 {
+	top: 400px;
+	left: 400px;
+	-webkit-animation: movingclouds 10s linear infinite;
+	-moz-animation: movingclouds 10s linear infinite;
+	-ms-animation: movingclouds 10s linear infinite;
+}
+.cloud-2 {
+	top: 200px;
+	left: 600px;
+	-webkit-animation: movingclouds 13s linear infinite;
+	-moz-animation: movingclouds 13s linear infinite;
+	-ms-animation: movingclouds 13s linear infinite;
+}
+.cloud-3 {
+	top: 100px;
+	left: 100px;
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+	opacity: 0.9;
+	-webkit-animation: movingclouds 15s linear infinite;
+	-moz-animation: movingclouds 15s linear infinite;
+	-ms-animation: movingclouds 15s linear infinite;
+}
+.cloud-4 {
+	top: 250px;
+	left: 40px;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	opacity: 0.8;
+	-webkit-animation: movingclouds 20s linear infinite;
+	-moz-animation: movingclouds 20s linear infinite;
+	-ms-animation: movingclouds 20s linear infinite;
+}
+.cloud-5 {
+	top: 100px;
+	left: 500px;
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+	opacity: 0.7;
+	-webkit-animation: movingclouds 25s linear infinite;
+	-moz-animation: movingclouds 25s linear infinite;
+	-ms-animation: movingclouds 25s linear infinite;
+}
+@-webkit-keyframes movingclouds {
+ 0% {
+margin-left: 100%;
+}
+ 100% {
+margin-left: -150%;
+}
+}
+@keyframes movingclouds {
+ 0% {
+margin-left: 100%;
+}
+ 100% {
+margin-left: -150%;
+}
+}
+/*End Clouds css*/
+
+/*Start back Button css*/
+.back-btn {
+	text-align: center;
+	width: 100%;
+}
+.back-btn a {
+	display: inline-block;
+	background: #29AEC1;
+	padding: 6px 15px;
+	color: #fff;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	margin: 20px 10px 0 10px;
+	min-width: 100px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.back-btn a:hover {
+	box-shadow: 0px 0px 0px 2px #A2E1E5, 0px 0px 0px 4px #29AEC1;
+}
+/*End back Button css*/
+
+/*Start Responsive css*/
+@media screen and (max-width: 1170px) and (min-width:768px) {
+.text-404 {
+	width: 330px;
+}
+.text-404 span {
+	font-size: 35px;
+	padding: 15px 25px;
+	line-height: 35px;
+}
+.text-404 span::after {
+	width: 70px;
+	right: -70px;
+}
+.plan {
+	width: 350px;
+}
+}
+ @media screen and (max-width: 767px) and (min-width:441px) {
+.text-404 {
+	width: 180px;
+	top: 38px;
+}
+.text-404 span {
+	font-size: 16px;
+	padding: 10px 15px;
+	line-height: 35px;
+}
+.text-404 span::after {
+	width: 40px;
+	right: -40px;
+}
+.plan {
+	width: 235px;
+}
+.oops-content {
+	min-width: 320px;
+	bottom: 15px;
+}
+.oops-content p {
+	font-size: 20px;
+}
+}
+@media screen and (max-width: 440px) and (min-width:320px) {
+.text-404 {
+	width: 120px;
+	top: 25px;
+	right: -30px;
+}
+.text-404 span {
+	font-size: 12px;
+	padding: 10px;
+	line-height: 24px;
+}
+.text-404 span::before {
+	height: 100%;
+	overflow: hidden;
+	background-size: cover;
+}
+.text-404 span::after {
+	width: 35px;
+	right: -35px;
+}
+.plan {
+	width: 170px;
+}
+.oops-content {
+	min-width: 320px;
+	bottom: 15px;
+}
+.oops-content p {
+	font-size: 20px;
+}
+}
+
+/*End Responsive css*/
